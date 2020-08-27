@@ -1,0 +1,4 @@
+class ControladorVoo {
+    void Voar() {
+    }
+}
