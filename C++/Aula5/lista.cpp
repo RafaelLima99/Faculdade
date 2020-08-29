@@ -108,7 +108,7 @@ int buscaSequencial(int codigo[], int cod, int t)
 
 int main()
 {
-	int tam, codigoProduto[5], op;
+ int tam, codigoProduto[5], op;
 	
 	//inicialização
 	tam = 0;
