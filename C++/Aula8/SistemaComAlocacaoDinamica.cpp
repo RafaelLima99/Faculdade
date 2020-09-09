@@ -22,7 +22,10 @@ int main()
 					cin >>n;
 					//variavel ponteiro alunos recebe um endereo de um arry float, que foi alocado dinamicamente
 					//o array contem a quantiade de indece detro dele "[n]"
+					//o valor armazenado nesse array que foi alocado dinamincamente é o valor que está dentro da vareavel "n"
 					alunos = new float[n];
+					
+					//se a vareavel ponteiro for igual a zero seuinifica que não foi alocado
 					if(alunos == 0){
 						cout<<"\nNao foi possivel fazer Alocacao\n";
 						return 1;
@@ -34,6 +37,8 @@ int main()
 					for(x=0; x<n; x++)
 					{
 						cout <<"\nDigite a nota: ";
+						//armazena dados no array que foi alocado dinamicamente
+						//armazena o valor de x dentro do array, como esta em poopin, adciona o valor em ideces 1 ao lado do outro
 						cin>>alunos[x];						
 					}
 					
