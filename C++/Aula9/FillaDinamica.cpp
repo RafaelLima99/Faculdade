@@ -28,8 +28,6 @@ nodo *insereFim(nodo *plista, int valor)
 		return plista;
 }
 
-
-
 nodo *remove(nodo *plista)
 {
 	nodo *aux;
