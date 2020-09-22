@@ -1,5 +1,3 @@
-
-
 //organiza vetor em ordem do menor para o maior
 
 #include <iostream>
@@ -41,3 +39,4 @@ int main()
 	cout << vet[2] << "\n";
 	
 }
+
