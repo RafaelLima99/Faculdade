@@ -7,7 +7,7 @@ void binaria(int vetor[], int tam)
 	int fim = tam - 1;
 	int meio;
 	int procura;
-	procura = 2;
+	procura = 1;
 	
 	meio = (inicio+fim)/2;
 	
