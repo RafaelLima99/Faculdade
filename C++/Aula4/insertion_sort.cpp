@@ -1,5 +1,3 @@
-
-
 //organiza vetor em ordem do menor para o maior
 
 #include <iostream>
@@ -15,9 +13,9 @@ void insercao(int vet[], int tam)
 	{
 		aux = vet[i];
 		//verifica se o indece do vetor a direita é menor que o da esquerda ex: vet[1] < vet[0]
-		//verifica se o j > 0, pois a cada interação do for derementa -1
+		//verifica se o j > 0, pois a cada interação do for derementa -
 		//usando o >0 impede que o j tenha um valor negativo
-		for(j=i; j>0 && aux <vet[j-1]; j--)
+		for(j=i; j>0 && aux < vet[j-1]; j--)
 		{
 			//vetor a direita recebe o valor do vetor a esquerda
 			vet[j]=vet[j-1];
