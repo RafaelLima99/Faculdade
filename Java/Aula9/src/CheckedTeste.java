@@ -5,7 +5,9 @@ public class CheckedTeste {
         Checked teste = new Checked();
         
         try{
+            
             teste.deposita(-1);
+            
         }catch(Exception e){
             System.out.println("Não se pode depositar valor negativo");
         }
